@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lime: rgb(129, 210, 121);
+  --color-white: ivory;
+  --color-left: rgb(230, 77, 77);
+  --color-right: rgb(0, 187, 230);
+  --color-sd: rgb(255, 213, 0);
+}
