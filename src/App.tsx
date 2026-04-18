@@ -23,7 +23,7 @@ function App() {
   console.log({ view, value });
 
   return (
-    <main className="h-dvh bg-lime flex flex-col items-stretch justify-center p-4">
+    <main className="h-dvh bg-lime w-full flex flex-col items-stretch justify-center p-4">
       {view === 0 && <Start handleClick={handleClick} />}
       {view === 1 && (
         <Question title="Vad är det finaste som en stat kan ge dig?">
