@@ -1,40 +1,8 @@
 import Section from "../components/section";
 
-const results = [
-  {
-    name: "Vänsterpartiet",
-    description: "",
-  },
-  {
-    name: "Miljöpartiet",
-    description: "",
-  },
-  {
-    name: "Socialdemokraterna",
-    description: "",
-  },
-  {
-    name: "Centerpartiet",
-    description: "",
-  },
-  {
-    name: "Liberalerna",
-    description: "",
-  },
-  {
-    name: "Kristdemokraterna",
-    description: "",
-  },
-  {
-    name: "Moderaterna",
-    description: "",
-  },
-];
 const SD = ({
-  value,
   children,
 }: {
-  value: { left: number; right: number };
   children: React.ReactNode;
 }) => {
   return (

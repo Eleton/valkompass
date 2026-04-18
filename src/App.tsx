@@ -100,7 +100,7 @@ function App() {
         </Result>
       )}
       {view === 8 && (
-        <SD value={value}>
+        <SD>
           <div className="flex gap-3 flex-col md:flex-row">
             <button
               className="px-4 py-1 outline-2 outline-black/30 rounded-full font-medium text-2xl w-full md:w-auto md:px-12"
