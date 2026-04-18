@@ -3,31 +3,31 @@ import Section from "../components/section";
 const results = [
   {
     name: "Vänsterpartiet",
-    description: "",
+    description: "Du tycker skatt är det sexigaste som finns, och får vi bara igenom 100% skatt så kan vi äntligen få bukt med arbetslösheten!",
   },
   {
     name: "Miljöpartiet",
-    description: "",
+    description: "Du brinner för att rädda valarna och regnskogen, och du kan till och med tänka dig att rädda mänskligheten.",
   },
   {
     name: "Socialdemokraterna",
-    description: "",
+    description: "Du uppskattar Tidös politik, men det känns helt enkelt lite säkrare om det är Maggan som genomför den.",
   },
   {
     name: "Centerpartiet",
-    description: "",
+    description: "Det är din bestämda åsikt att sakfrågorna går först, d.v.s vilka partier som ska ha ministrar och egentligen bara det.",
   },
   {
     name: "Liberalerna",
-    description: "",
+    description: "Sannolikheten att du ska rösta på Liberalerna är så liten att vi inte lagt resurser på att skriva en beskrvining av dig.",
   },
   {
     name: "Kristdemokraterna",
-    description: "",
+    description: "Samhället behöver mer moral! Mycket mer moral! Så mycket moral att det blir dubbel moral!",
   },
   {
     name: "Moderaterna",
-    description: "",
+    description: "Du tycker att alla i Sverige förtjänar ett arbete, ty arbete ger frihet. Om du fattar vinken.",
   },
 ];
 const Result = ({
@@ -44,8 +44,8 @@ const Result = ({
           <h1 className="text-4xl font-bold text-black">Resultat</h1>
           <div>
             <div className="flex justify-between px-1">
-              <div>{`${100 * Math.round(value.left / 6)}% vänster`}</div>
-              <div>{`${100 * Math.round(value.right / 6)}% höger`}</div>
+              <div>{`${Math.round(100 * value.left / 6)}% vänster`}</div>
+              <div>{`${Math.round(100 * value.right / 6)}% höger`}</div>
             </div>
             <div
               className="grid h-10 rounded-lg overflow-hidden"
