@@ -11,7 +11,7 @@ const Start = ({
         <h1 className="text-5xl font-bold text-black">Aimans Valkompass</h1>
         <h2 className="text-xl">
           Gör Aimans Valkompass™ och ta reda på vilket parti du borde rösta på i
-          valet 2018!
+          valet!
         </h2>
       </div>
       <div>
