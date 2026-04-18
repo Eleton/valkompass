@@ -60,9 +60,9 @@ const Result = ({
           <div>
             <h2 className="text-xl">
               Du borde rösta på{" "}
-              <span className="font-bold">{results[value.left].name}</span>
+              <span className="font-bold">{results[value.right].name}</span>
             </h2>
-            <p>{results[value.left].description}</p>
+            <p>{results[value.right].description}</p>
           </div>
         </div>
         <div className="flex flex-col gap-4">
